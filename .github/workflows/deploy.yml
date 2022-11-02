@@ -13,6 +13,6 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.KEY }}
         with:
-          source: "*"
+          source: "index.html"
           target: "/var/www/html/devzone"
           strip_components: 1
