@@ -15,4 +15,4 @@ jobs:
         with:
           source: "index.html"
           target: "/var/www/html/devzone"
-          strip_components: 1
+#          strip_components: 1
