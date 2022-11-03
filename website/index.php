@@ -1,3 +1,3 @@
-<h1><3</h1>
+<h3>Bim t piraté <3</h3>
 <?php
 
