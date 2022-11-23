@@ -9,7 +9,9 @@
 </head>
 
 <body>
-
+<?php
+include "./utilities/navbar.php"
+?>
 <div class="container">
     <h1 style="margin-top: 3%; margin-bottom: 5%;">Bienvenue sur l'outil d'analytique des ventes</h1>
     <h3>L'objectif de cette page</h3>
