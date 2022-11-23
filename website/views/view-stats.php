@@ -4,21 +4,15 @@
     <title>Old Page</title>
     <meta charset="UTF-8" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--<meta http-equiv="refresh" content="0; URL=https://www.youtube.com/watch?v=dQw4w9WgXcQ" /> -->
 </head>
 
 <body>
 <?php
-include "./utilities/navbar.php"
+include "../utilities/navbar-views.php"
 ?>
 <div class="container">
-    <h1 style="margin-top: 3%; margin-bottom: 5%;">Bienvenue sur l'outil d'analytique des ventes</h1>
-    <h3>L'objectif de cette page</h3>
-    <p style="margin-bottom: 2%;">Our cool objbectives here.</p>
-    <h3 class="mt-3">Autre section si besoin</h3>
-
-
     <div id="piechart"></div>
 
     <canvas id="myCanvas" width="600" height="300" style="border:1px solid black;">
@@ -26,8 +20,8 @@ include "./utilities/navbar.php"
 </div>
 </body>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript" src="JS/drawPieCharts.js"></script>
-<script type="text/javascript" src="./JS/drawCharts.js"></script>
+<script type="text/javascript" src="../js/drawPieCharts.js"></script>
+<script type="text/javascript" src="../js/drawCharts.js"></script>
 <script>
     window.onload = function(){
         var myLineChart = new LineChart({

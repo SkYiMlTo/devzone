@@ -10,13 +10,13 @@ session_start();
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="./xx">Register</a>
+                <a class="nav-link" href="../views/view-stats.php">View Stats</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./xx">Log In</a>
+                <a class="nav-link" href="./xx">Button 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./xx">About</a>
+                <a class="nav-link" href="./xx">Button 3</a>
             </li>
         </ul>
     </div>
