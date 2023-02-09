@@ -17,7 +17,7 @@ include "./utilities/navbar-index.php"
     <h3>L'objectif de cette page</h3>
     <p style="margin-bottom: 2%;">Our cool objbectives here.</p>
     <h3 class="mt-3">Autre section si besoin</h3>
-    <p>Salut bg</p>
+    <p>Yo beau gosse</p>
 </div>
 </body>
 
